@@ -21,7 +21,8 @@ function App() {
 
   const formattedDate = `${month} ${day}, ${year}`;
 
-  const API_KEY = "4e4a4ddbd8e3ce2bddae06b174d557a0";
+  const API_KEY = process.env.REACT_APP_WEATHER_API_KEY;
+ 
 
   const fetchWeatherData = async () => {
     try {
@@ -29,7 +30,7 @@ function App() {
         `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`
       )
       const data = await response.json();
-      console.log(data);
+      
       if (response.ok) {
         setWeatherData(data);
         setError(null)
