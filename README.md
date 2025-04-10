@@ -12,13 +12,12 @@ A simple and responsive weather application built using **React.js**. It fetches
 ## 🧰 Tech Stack
 
 - React.js
-- CSS / Tailwind / Styled-Components (choose one)
-- Axios (for API requests)
+- CSS
 - OpenWeatherMap API
 
-## 📸 Screenshots
+### 🖼️ Home Page
 
-<!-- Add screenshots or demo gif here -->
+![Weather App Screenshot](public/home.png)
 
 ## 🚀 Getting Started
 
@@ -45,7 +44,7 @@ Get your free API key from OpenWeatherMap
 
 Create a .env file in the root directory and add:
 ```
-REACT_APP_WEATHER_API_KEY=your_api_key_here
+  REACT_APP_WEATHER_API_KEY=your_api_key_here
 ```
 Run the app
 ```
@@ -59,10 +58,10 @@ weather-app/
 │
 ├── public/
 ├── src/
-│   ├── components/
-│   ├── services/       # API handling
+│   ├── index.js
+│   ├── App.css     
 │   ├── App.js
-│   └── index.js
+│   └── index.css
 ├── .env
 ├── package.json
 └── README.md
