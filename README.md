@@ -4,10 +4,10 @@ A simple and responsive weather application built using **React.js**. It fetches
 
 ## 🔍 Features
 
-- 🌦️ Current weather by city
-- 📍 Weather by user’s location (Geolocation API)
-- 📈 Weather details like humidity, pressure, and wind speed
-- 🎨 Clean and responsive UI
+- 🌦️ Current weather by city.
+- 📍 Weather by user’s location (Geolocation API).
+- 📈 Weather details like humidity, pressure, and wind speed.
+- 🎨 Clean and responsive UI.
 
 ## 🧰 Tech Stack
 
