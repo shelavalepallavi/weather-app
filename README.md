@@ -66,8 +66,8 @@ weather-app/
 ├── package.json
 └── README.md
 ```
-🧪 Future Improvements
-🔍 Search autocomplete
+🧪 Future Improvements.
+🔍 Search autocomplete.
 
 🌎 7-day forecast
 
